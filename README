@@ -3,3 +3,19 @@ Following instructions here:
 https://secure.phabricator.com/book/phabricator/article/installation_guide/
 
 checked in the install_ubuntu.sh used to create our first instance.
+checked in a mirror of the guide above, just in case
+
+To formalize what was required of me:
+
+Create AWS instance
+Choose Ubuntu as baseline
+Log in using pem file
+Run above script (install_ubuntu.sh)
+Follow installation guide given above (checked in for completeness)
+unblock inbound http traffic
+create mysql password for root user: dpkg-reconfigure mysql-server-5.5
+configure mysql username/password in phabricator
+adjust apache configuration as indicated in the guide (path change, and php related permissions)
+
+This suffices to get the phabricator app running and accessible at your public ip addr.
+At outset, I had 17 outstanding issues which it steps you through correcting.
