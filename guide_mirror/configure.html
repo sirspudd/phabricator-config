@@ -1,0 +1,204 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8" /><title>◉ Configuration Guide</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel="mask-icon" color="#3D4B67" href="https://p.phcdn.net/res/phabricator/0460cb1f/rsrc/favicons/mask-icon.svg" /><link rel="apple-touch-icon" href="https://p.phcdn.net/res/phabricator/ecdef672/rsrc/favicons/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="120x120" href="https://p.phcdn.net/res/phabricator/43742962/rsrc/favicons/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="152x152" href="https://p.phcdn.net/res/phabricator/669eaec3/rsrc/favicons/apple-touch-icon-152x152.png" /><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /><meta name="referrer" content="never" /><script type="text/javascript">(top == self) || top.location.replace(self.location.href);window.__DEV__=0;</script><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/aa3656aa/rsrc/css/diviner/diviner-shared.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/8abb1666/core.pkg.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/a4a1c3b9/rsrc/css/phui/phui-document.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/8799acf7/rsrc/css/phui/phui-document-pro.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/c7ccd872/rsrc/css/font/font-lato.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/9cda225e/rsrc/css/phui/phui-fontkit.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/8bdb2835/rsrc/css/font/font-aleo.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/ab7b848c/rsrc/css/application/base/phui-theme.css" /><script type="text/javascript" src="https://p.phcdn.net/res/phabricator/3010e992/rsrc/externals/javelin/core/init.js"></script></head><body class="device-desktop phui-theme-blindigo"><div class="main-page-frame"><div id="phabricator-standard-page" class="phabricator-standard-page"><div class="phabricator-main-menu phabricator-main-menu-background" id="UQ0_3"><a class="phabricator-main-menu-expand-button phabricator-expand-search-menu" data-sigil="jx-toggle-class" data-meta="0_1"><span class="phabricator-menu-button-icon phui-icon-view phui-font-fa fa-bars" id="UQ0_4"></span></a><a class="phabricator-main-menu-search-button phabricator-expand-application-menu" data-sigil="jx-toggle-class" data-meta="0_2"><span class="phabricator-menu-button-icon phui-icon-view phui-font-fa fa-search" id="UQ0_5"></span></a><a class="phabricator-main-menu-brand" href="/"><span class="aural-only">Home</span><span class="sprite-menu phabricator-main-menu-eye light-eye"></span><span class="sprite-menu phabricator-main-menu-logo light-logo"></span></a><ul class="phui-list-view phabricator-dark-menu phabricator-application-menu"><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Queries</span></div></li><li class="phui-list-item-view phui-list-item-type-link "><a href="/diviner/query/all/" class="phui-list-item-href"><span class="phui-list-item-name">All Atoms</span></a></li><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Search</span></div></li><li class="phui-list-item-view phui-list-item-type-link "><a href="/diviner/query/advanced/" class="phui-list-item-href"><span class="phui-list-item-name">Advanced Search</span></a></li><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Actions</span></div></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon core-menu-item" id="UQ0_7"><a href="/help/documentation/PhabricatorDivinerApplication/" class="phui-list-item-href"><span class="aural-only">Diviner Help</span><span class="visual-only phui-icon-view phui-font-fa fa-life-ring phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name visual-only">Diviner Help</span></a></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon core-menu-item"><a href="/auth/start/?next=%2Fbook%2Fphabricator%2Farticle%2Fconfiguration_guide%2F" class="phui-list-item-href"><span class="aural-only">Log In</span><span class="visual-only phui-icon-view phui-font-fa fa-sign-in phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name visual-only">Log In</span></a></li></ul><ul class="phui-list-view phabricator-dark-menu phabricator-search-menu"><li class="phui-list-item-view phui-list-item-type-link phabricator-main-menu-search"><div class=""><form action="/search/" method="POST"><input type="hidden" name="__csrf__" value="B@6jzuvm4p53b55d09a946241e" /><input type="hidden" name="__form__" value="1" /><div class="phabricator-main-menu-search-container"><input type="text" name="query" id="UQ0_6" autocomplete="off" /><button id="UQ0_9" class="phui-icon-view phui-font-fa fa-search"><span class="aural-only">Search</span></button><button class="button dropdown has-icon phabricator-main-menu-search-dropdown" id="UQ0_10" data-sigil="global-search-dropdown" data-meta="0_3"><span class="visual-only phui-icon-view phui-font-fa fa-globe" data-sigil="global-search-dropdown-icon" aria-hidden="true"></span><div class="phui-button-text"></div><span class="caret"></span></button><input type="hidden" name="search:scope" value="all" data-sigil="global-search-dropdown-input" /><input type="hidden" id="UQ0_11" name="search:application" value="PhabricatorDivinerApplication" data-sigil="global-search-dropdown-app" /><input type="hidden" name="search:primary" value="true" /><div id="UQ0_8" class="phabricator-main-menu-search-target"></div></div></form></div></li></ul><div id="phabricator-quick-create-menu" class="phabricator-main-menu-dropdown phui-list-sidenav" style="display: none"><ul class="phui-list-view "><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon "><a href="/pholio/create/" class="phui-list-item-href"><span class="visual-only phui-icon-view phui-font-fa fa-picture-o phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Pholio Mock</span></a></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon " data-sigil="workflow"><a href="/conpherence/new/" class="phui-list-item-href"><span class="visual-only phui-icon-view phui-font-fa fa-comments phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Conpherence Room</span></a></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon "><a href="/calendar/event/create/" class="phui-list-item-href"><span class="visual-only phui-icon-view phui-font-fa fa-calendar phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Calendar Event</span></a></li></ul></div><div id="phabricator-help-menu" class="phabricator-main-menu-dropdown phui-list-sidenav" style="display: none"><ul class="phui-list-view "><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Diviner Documentation</span></div></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon "><a href="https://secure.phabricator.com/diviner/find/?name=Diviner+User+Guide&amp;type=article&amp;jump=1" class="phui-list-item-href" rel="noreferrer"><span class="visual-only phui-icon-view phui-font-fa fa-book phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Diviner User Guide</span></a></li></ul></div></div><div id="phabricator-standard-page-body" class="phabricator-standard-page-body"><div class="phabricator-nav phabricator-basic-nav" id="UQ0_1"><div class="phabricator-nav-content plb" id="UQ0_0"><div class="phui-crumbs-view phui-crumbs-border"><a href="/diviner/" class="phui-crumb-view phui-crumb-has-icon"><span class="visual-only phui-icon-view phui-font-fa fa-sun-o" aria-hidden="true"></span><span class="phui-crumb-name">Diviner</span></a><span class="visual-only phui-icon-view phui-font-fa fa-angle-right phui-crumb-divider phui-crumb-view" aria-hidden="true"></span><a href="/book/phabricator/" class="phui-crumb-view"><span class="phui-crumb-name">Phabricator User Docs</span></a><span class="visual-only phui-icon-view phui-font-fa fa-angle-right phui-crumb-divider phui-crumb-view" aria-hidden="true"></span><span class="phui-crumb-view phabricator-last-crumb"><span class="phui-crumb-name">Configuration Guide</span></span></div><div class="phui-document-container diviner-view"><div class="phui-document-view phui-document-view-pro"><div class="phui-document-content"><div class="phui-document-inner"><div class="phui-document-toc-container" id="UQ0_2"><a class="button simple has-icon phui-document-toc" data-sigil="jx-toggle-class" data-meta="0_0"><span class="visual-only phui-icon-view phui-font-fa fa-align-left" aria-hidden="true"></span><div class="phui-button-text"></div></a><div class="phui-list-sidenav phui-document-toc-list"><ul class="phui-list-view "><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Contents</span></div></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#prerequisites" class="phui-list-item-href"><span class="phui-list-item-name">Prerequisites</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#webserver-configuring-ap" class="phui-list-item-href"><span class="phui-list-item-name">Webserver: Configuring Apache</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#webserver-configuring-ng" class="phui-list-item-href"><span class="phui-list-item-name">Webserver: Configuring nginx</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#webserver-configuring-li" class="phui-list-item-href"><span class="phui-list-item-name">Webserver: Configuring lighttpd</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#setup" class="phui-list-item-href"><span class="phui-list-item-name">Setup</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#storage-configuring-mysq" class="phui-list-item-href"><span class="phui-list-item-name">Storage: Configuring MySQL</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#next-steps" class="phui-list-item-href"><span class="phui-list-item-name">Next Steps</span></a></li></ul></div></div><div class="phui-header-shell phui-header-tall "><h1 class="phui-header-view"><div class="phui-header-row"><div class="phui-header-col2"><span class="phui-header-header">Configuration Guide</span><div class="phui-header-subheader">Phabricator User Documentation (Configuration)</div></div><div class="phui-header-col3"></div></div></h1></div><div class="phabricator-remarkup diviner-remarkup-section"><p>This document contains basic configuration instructions for Phabricator.</p>
+
+<h2 class="remarkup-header"><a name="prerequisites"></a>Prerequisites</h2>
+
+<p>This document assumes you&#039;ve already installed all the components you need.
+If you haven&#039;t, see <a class="atom-ref" href="/diviner/find/?name=Installation_Guide&amp;type=article&amp;jump=1">Installation Guide</a>.</p>
+
+<p>The next steps are:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item">Configure your webserver (Apache, nginx, or lighttpd).</li>
+<li class="remarkup-list-item">Access Phabricator with your browser.</li>
+<li class="remarkup-list-item">Follow the instructions to complete setup.</li>
+</ul>
+
+<h2 class="remarkup-header"><a name="webserver-configuring-ap"></a>Webserver: Configuring Apache</h2>
+
+<div class="remarkup-note"><span class="remarkup-note-word">NOTE:</span> Follow these instructions to use Apache. To use nginx or lighttpd, scroll
+down to their sections.</div>
+
+<p>Get Apache running and verify it&#039;s serving a test page. Consult the Apache
+documentation for help. Make sure <tt class="remarkup-monospaced">mod_php</tt> and <tt class="remarkup-monospaced">mod_rewrite</tt> are enabled,
+and <tt class="remarkup-monospaced">mod_ssl</tt> if you intend to set up SSL.</p>
+
+<p>If you haven&#039;t already, set up a domain name to point to the host you&#039;re
+installing on. You can either install Phabricator on a subdomain (like
+phabricator.example.com) or an entire domain, but you can not install it in
+some subdirectory of an existing website. Navigate to whatever domain you&#039;re
+going to use and make sure Apache serves you something to verify that DNS
+is correctly configured.</p>
+
+<div class="remarkup-note"><span class="remarkup-note-word">NOTE:</span> The domain must contain a dot (&#039;.&#039;), i.e. not be just a bare name like
+&#039;<a href="http://example/&#039;" class="remarkup-link" target="_blank" rel="noreferrer">http://example/&#039;</a>. Some web browsers will not set cookies otherwise.</div>
+
+<p>Now create a VirtualHost entry for Phabricator. It should look something like
+this:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><div class="remarkup-code-header">httpd.conf</div><pre class="remarkup-code">&lt;VirtualHost *&gt;
+  # Change this to the domain which points to your host.
+  ServerName phabricator.example.com
+
+  # Change this to the path where you put &#039;phabricator&#039; when you checked it
+  # out from GitHub when following the Installation Guide.
+  #
+  # Make sure you include &quot;/webroot&quot; at the end!
+  DocumentRoot /path/to/phabricator/webroot
+
+  RewriteEngine on
+  RewriteRule ^/rsrc/(.*)     -                       [L,QSA]
+  RewriteRule ^/favicon.ico   -                       [L,QSA]
+  RewriteRule ^(.*)$          /index.php?__path__=$1  [B,L,QSA]
+&lt;/VirtualHost&gt;</pre></div>
+
+<p>If Apache isn&#039;t currently configured to serve documents out of the directory
+where you put Phabricator, you may also need to add <tt class="remarkup-monospaced">&lt;Directory /&gt;</tt> section. The
+syntax for this section depends on which version of Apache you&#039;re running.
+(If you don&#039;t know, you can usually figure this out by running <tt class="remarkup-monospaced">httpd -v</tt>.)
+For Apache versions older than 2.4, use this:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><div class="remarkup-code-header">Apache Older Than 2.4</div><pre class="remarkup-code">&lt;Directory &quot;/path/to/phabricator/webroot&quot;&gt;
+  Order allow,deny
+  Allow from all
+&lt;/Directory&gt;</pre></div>
+
+<p>For Apache versions 2.4 and newer, use this:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><div class="remarkup-code-header">Apache 2.4 and Newer</div><pre class="remarkup-code">&lt;Directory &quot;/path/to/phabricator/webroot&quot;&gt;
+  Require all granted
+&lt;/Directory&gt;</pre></div>
+
+<p>After making your edits, restart Apache, then continue to &quot;Setup&quot; below.</p>
+
+<h2 class="remarkup-header"><a name="webserver-configuring-ng"></a>Webserver: Configuring nginx</h2>
+
+<div class="remarkup-note"><span class="remarkup-note-word">NOTE:</span> Follow these instructions to use nginx. To use Apache or lighttpd, scroll
+to their sections.</div>
+
+<p>For nginx, use a configuration like this:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><div class="remarkup-code-header">nginx.conf</div><pre class="remarkup-code">server {
+  server_name phabricator.example.com;
+  root        /path/to/phabricator/webroot;
+
+  location / {
+    index index.php;
+    rewrite ^/(.*)$ /index.php?__path__=/$1 last;
+  }
+
+  location = /favicon.ico {
+    try_files $uri =204;
+  }
+
+  location /index.php {
+    fastcgi_pass   localhost:9000;
+    fastcgi_index   index.php;
+
+    #required if PHP was built with --enable-force-cgi-redirect
+    fastcgi_param  REDIRECT_STATUS    200;
+
+    #variables to make the $_SERVER populate in PHP
+    fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;
+    fastcgi_param  QUERY_STRING       $query_string;
+    fastcgi_param  REQUEST_METHOD     $request_method;
+    fastcgi_param  CONTENT_TYPE       $content_type;
+    fastcgi_param  CONTENT_LENGTH     $content_length;
+
+    fastcgi_param  SCRIPT_NAME        $fastcgi_script_name;
+
+    fastcgi_param  GATEWAY_INTERFACE  CGI/1.1;
+    fastcgi_param  SERVER_SOFTWARE    nginx/$nginx_version;
+
+    fastcgi_param  REMOTE_ADDR        $remote_addr;
+  }
+}</pre></div>
+
+<p>Restart nginx after making your edits, then continue to &quot;Setup&quot; below.</p>
+
+<h2 class="remarkup-header"><a name="webserver-configuring-li"></a>Webserver: Configuring lighttpd</h2>
+
+<div class="remarkup-note"><span class="remarkup-note-word">NOTE:</span> Follow these instructions to use lighttpd. To use Apache or niginx, scroll
+up to their sections.</div>
+
+<p>For lighttpd, add a section like this to your lighttpd.conf:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><pre class="remarkup-code">$HTTP[&quot;host&quot;] =~ &quot;phabricator(\.example\.com)?&quot; {
+    server.document-root = &quot;/path/to/phabricator/webroot&quot;
+    url.rewrite-once = (
+        &quot;^(/rsrc/.*)$&quot; =&gt; &quot;$1&quot;,
+        &quot;^(/favicon.ico)$&quot; =&gt; &quot;$1&quot;,
+        # This simulates QSA (&quot;query string append&quot;) mode in apache
+        &quot;^(/[^?]*)\?(.*)&quot; =&gt; &quot;/index.php?__path__=$1&amp;$2&quot;,
+        &quot;^(/.*)$&quot; =&gt; &quot;/index.php?__path__=$1&quot;,
+    )
+}</pre></div>
+
+<p>You should also ensure the following modules are listed in your
+server.modules list:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><pre class="remarkup-code">mod_fastcgi
+mod_rewrite</pre></div>
+
+<p>Finally, you should run the following commands to enable php support:</p>
+
+<div class="remarkup-code-block" data-code-lang="console" data-sigil="remarkup-code-block"><pre class="remarkup-code"><span class="gp">$ sudo apt-get install php5-cgi  </span><span class="k"># for ubuntu; other distros should be similar</span>
+<span class="gp">$ sudo lighty-enable-mod fastcgi-php</span></pre></div>
+
+<p>Restart lighttpd after making your edits, then continue below.</p>
+
+<h2 class="remarkup-header"><a name="setup"></a>Setup</h2>
+
+<p>Now, navigate to whichever subdomain you set up. You should see instructions to
+continue setup. The rest of this document contains additional instructions for
+specific setup steps.</p>
+
+<p>When you resolve any issues and see the welcome screen, enter credentials to
+create your initial administrator account. After you log in, you&#039;ll want to
+configure how other users will be able to log in or register -- until you do,
+no one else will be able to sign up or log in. For more information, see
+<a class="atom-ref" href="/diviner/find/?name=Configuring_Accounts_and_Registration&amp;type=article&amp;jump=1">Configuring Accounts and Registration</a>.</p>
+
+<h2 class="remarkup-header"><a name="storage-configuring-mysq"></a>Storage: Configuring MySQL</h2>
+
+<p>During setup, you&#039;ll need to configure MySQL. To do this, get MySQL running and
+verify you can connect to it. Consult the MySQL documentation for help. When
+MySQL works, you need to load the Phabricator schemata into it. To do this, run:</p>
+
+<div class="remarkup-code-block" data-code-lang="console" data-sigil="remarkup-code-block"><pre class="remarkup-code">phabricator/ <span class="gp">$ ./bin/storage upgrade</span></pre></div>
+
+<p>If your configuration uses an unprivileged user to connect to the database, you
+may have to override the default user so the schema changes can be applied with
+root or some other admin user:</p>
+
+<div class="remarkup-code-block" data-code-lang="console" data-sigil="remarkup-code-block"><pre class="remarkup-code">phabricator/ <span class="gp">$ ./bin/storage upgrade --user &lt;user&gt; --password &lt;password&gt;</span></pre></div>
+
+<p>You can avoid the prompt the script issues by passing the <tt class="remarkup-monospaced">--force</tt> flag (for
+example, if you are scripting the upgrade process).</p>
+
+<div class="remarkup-code-block" data-code-lang="console" data-sigil="remarkup-code-block"><pre class="remarkup-code">phabricator/ <span class="gp">$ ./bin/storage upgrade --force</span></pre></div>
+
+<div class="remarkup-note"><span class="remarkup-note-word">NOTE:</span> When you update Phabricator, run <tt class="remarkup-monospaced">storage upgrade</tt> again to apply any
+new updates.</div>
+
+
+
+<h2 class="remarkup-header"><a name="next-steps"></a>Next Steps</h2>
+
+<p>Continue by:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item">setting up your admin account and login/registration with <a class="atom-ref" href="/diviner/find/?name=Configuring_Accounts_and_Registration&amp;type=article&amp;jump=1">Configuring Accounts and Registration</a>; or</li>
+<li class="remarkup-list-item">understanding advanced configuration topics with <a class="atom-ref" href="/diviner/find/?name=Configuration_User_Guide%3A_Advanced_Configuration&amp;type=article&amp;jump=1">Configuration User Guide: Advanced Configuration</a>; or</li>
+<li class="remarkup-list-item">configuring an alternate file domain with <a class="atom-ref" href="/diviner/find/?name=Configuring_a_File_Domain&amp;type=article&amp;jump=1">Configuring a File Domain</a>; or</li>
+<li class="remarkup-list-item">configuring a preamble script to set up the environment properly behind a load balancer, or adjust rate limiting with <a class="atom-ref" href="/diviner/find/?name=Configuring_a_Preamble_Script&amp;type=article&amp;jump=1">Configuring a Preamble Script</a>; or</li>
+<li class="remarkup-list-item">configuring where uploaded files and attachments will be stored with <a class="atom-ref" href="/diviner/find/?name=Configuring_File_Storage&amp;type=article&amp;jump=1">Configuring File Storage</a>; or</li>
+<li class="remarkup-list-item">configuring Phabricator so it can send mail with <a class="atom-ref" href="/diviner/find/?name=Configuring_Outbound_Email&amp;type=article&amp;jump=1">Configuring Outbound Email</a>; or</li>
+<li class="remarkup-list-item">configuring inbound mail with <a class="atom-ref" href="/diviner/find/?name=Configuring_Inbound_Email&amp;type=article&amp;jump=1">Configuring Inbound Email</a>; or</li>
+<li class="remarkup-list-item">importing repositories with <a class="atom-ref" href="/diviner/find/?name=Diffusion_User_Guide&amp;type=article&amp;jump=1">Diffusion User Guide</a>; or</li>
+<li class="remarkup-list-item">learning about daemons with <a class="atom-ref" href="/diviner/find/?name=Managing_Daemons_with_phd&amp;type=article&amp;jump=1">Managing Daemons with phd</a>; or</li>
+<li class="remarkup-list-item">learning about notification with <a class="atom-ref" href="/diviner/find/?name=Notifications_User_Guide%3A_Setup_and_Configuration&amp;type=article&amp;jump=1">Notifications User Guide: Setup and Configuration</a>; or</li>
+<li class="remarkup-list-item">configuring backups with <a class="atom-ref" href="/diviner/find/?name=Configuring_Backups_and_Performing_Migrations&amp;type=article&amp;jump=1">Configuring Backups and Performing Migrations</a>; or</li>
+<li class="remarkup-list-item">contributing to Phabricator with <a class="atom-ref" href="/diviner/find/?name=Contributor_Introduction&amp;type=article&amp;jump=1">Contributor Introduction</a>.</li>
+</ul></div></div></div></div></div><div class="phui-property-list-view "><div class="phui-property-list-section"><div class="phui-property-list-container grouped"><div class="phui-property-list-properties-wrap "><dl class="phui-property-list-properties"><dt class="phui-property-list-key">Defined </dt><dd class="phui-property-list-value"><a href="https://secure.phabricator.com/diffusion/P/browse/master/src/docs/user/configuration/configuration_guide.diviner$1" target="_blank" rel="noreferrer">src/docs/user/configuration/configuration_guide.diviner:1</a> </dd></dl></div></div></div></div></div></div><div class="phabricator-standard-page-footer grouped"><a href="http://phabricator.org/" rel="noreferrer">Phabricator</a> · <a href="http://phacility.com/" rel="noreferrer">Built by Phacility</a></div></div></div></div><script type="text/javascript" src="https://p.phcdn.net/res/phabricator/573e6664/core.pkg.js"></script><script type="text/javascript">JX.Stratcom.mergeData(0, [{"map":{"UQ0_2":"phui-document-toc-open"}},{"map":{"UQ0_3":"phabricator-application-menu-expanded","UQ0_4":"menu-icon-selected"}},{"map":{"UQ0_3":"phabricator-search-menu-expanded","UQ0_5":"menu-icon-selected"}},{"items":[{"name":"Search"},{"icon":"fa-globe","name":"Search All Documents","value":"all"},{"icon":"fa-sun-o","name":"Search Current Application","value":"application"},{"name":"Saved Queries"},{"icon":"fa-certificate","name":"Open Documents","value":"open"},{"icon":"fa-certificate","name":"Open Tasks","value":"open-tasks"},{"name":"More Options"},{"icon":"fa-search-plus","name":"Advanced Search","href":"\/search\/query\/advanced\/"},{"icon":"fa-book","name":"User Guide: Search","href":"https:\/\/secure.phabricator.com\/diviner\/find\/?name=Search+User+Guide&type=article&jump=1"}],"icon":"fa-globe","value":"all"}]);
+JX.onload(function(){JX.initBehaviors({"refresh-csrf":[{"tokenName":"__csrf__","header":"X-Phabricator-Csrf","viaHeader":"X-Phabricator-Via","current":"B@6jzuvm4p53b55d09a946241e"}],"history-install":[]})});
+JX.onload(function(){JX.initBehaviors({"phabricator-reveal-content":[],"workflow":[],"lightbox-attachments":[{"defaultImageUri":"https:\/\/p.phcdn.net\/res\/phabricator\/45fe1c60\/rsrc\/image\/icon\/fatcow\/document_black.png","downloadForm":"\u003cform action=\"#\" method=\"POST\" class=\"lightbox-download-form\" data-sigil=\"download\"\u003e\u003cinput type=\"hidden\" name=\"__csrf__\" value=\"B@6jzuvm4p53b55d09a946241e\" \/\u003e\u003cinput type=\"hidden\" name=\"__form__\" value=\"1\" \/\u003e\u003cbutton\u003eDownload\u003c\/button\u003e\u003c\/form\u003e"}],"aphront-form-disable-on-submit":[],"toggle-class":[],"phabricator-gesture":[],"device":[],"high-security-warning":[{"show":false,"uri":"\/auth\/session\/downgrade\/","message":"Your session is in high security mode. When you finish using it, click here to leave."}],"phabricator-keyboard-shortcuts":[{"helpURI":"\/help\/keyboardshortcut\/","searchID":"UQ0_6"}],"aphlict-dropdown":[{"bubbleID":"UQ0_7","dropdownID":"phabricator-help-menu","local":true,"desktop":true,"right":true}],"phabricator-search-typeahead":[{"id":"UQ0_8","input":"UQ0_6","button":"UQ0_9","selectorID":"UQ0_10","applicationID":"UQ0_11","defaultApplicationIcon":"fa-dot-circle-o","appScope":"application","src":"\/typeahead\/class\/PhabricatorSearchDatasource\/","limit":10,"placeholder":"Search","scopeUpdateURI":"\/settings\/adjust\/?key=search-scope"}],"quicksand-blacklist":[{"patterns":["\/phame\/live\/.*","\/conpherence\/.*","\/Z\\d+"]}]})});</script></body></html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8" /><title>◉ Installation Guide</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel="mask-icon" color="#3D4B67" href="https://p.phcdn.net/res/phabricator/0460cb1f/rsrc/favicons/mask-icon.svg" /><link rel="apple-touch-icon" href="https://p.phcdn.net/res/phabricator/ecdef672/rsrc/favicons/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="120x120" href="https://p.phcdn.net/res/phabricator/43742962/rsrc/favicons/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="152x152" href="https://p.phcdn.net/res/phabricator/669eaec3/rsrc/favicons/apple-touch-icon-152x152.png" /><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /><meta name="referrer" content="never" /><script type="text/javascript">(top == self) || top.location.replace(self.location.href);window.__DEV__=0;</script><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/aa3656aa/rsrc/css/diviner/diviner-shared.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/8abb1666/core.pkg.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/a4a1c3b9/rsrc/css/phui/phui-document.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/8799acf7/rsrc/css/phui/phui-document-pro.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/c7ccd872/rsrc/css/font/font-lato.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/9cda225e/rsrc/css/phui/phui-fontkit.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/8bdb2835/rsrc/css/font/font-aleo.css" /><link rel="stylesheet" type="text/css" href="https://p.phcdn.net/res/phabricator/ab7b848c/rsrc/css/application/base/phui-theme.css" /><script type="text/javascript" src="https://p.phcdn.net/res/phabricator/3010e992/rsrc/externals/javelin/core/init.js"></script></head><body class="device-desktop phui-theme-blindigo"><div class="main-page-frame"><div id="phabricator-standard-page" class="phabricator-standard-page"><div class="phabricator-main-menu phabricator-main-menu-background" id="UQ0_3"><a class="phabricator-main-menu-expand-button phabricator-expand-search-menu" data-sigil="jx-toggle-class" data-meta="0_1"><span class="phabricator-menu-button-icon phui-icon-view phui-font-fa fa-bars" id="UQ0_4"></span></a><a class="phabricator-main-menu-search-button phabricator-expand-application-menu" data-sigil="jx-toggle-class" data-meta="0_2"><span class="phabricator-menu-button-icon phui-icon-view phui-font-fa fa-search" id="UQ0_5"></span></a><a class="phabricator-main-menu-brand" href="/"><span class="aural-only">Home</span><span class="sprite-menu phabricator-main-menu-eye light-eye"></span><span class="sprite-menu phabricator-main-menu-logo light-logo"></span></a><ul class="phui-list-view phabricator-dark-menu phabricator-application-menu"><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Queries</span></div></li><li class="phui-list-item-view phui-list-item-type-link "><a href="/diviner/query/all/" class="phui-list-item-href"><span class="phui-list-item-name">All Atoms</span></a></li><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Search</span></div></li><li class="phui-list-item-view phui-list-item-type-link "><a href="/diviner/query/advanced/" class="phui-list-item-href"><span class="phui-list-item-name">Advanced Search</span></a></li><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Actions</span></div></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon core-menu-item" id="UQ0_7"><a href="/help/documentation/PhabricatorDivinerApplication/" class="phui-list-item-href"><span class="aural-only">Diviner Help</span><span class="visual-only phui-icon-view phui-font-fa fa-life-ring phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name visual-only">Diviner Help</span></a></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon core-menu-item"><a href="/auth/start/?next=%2Fbook%2Fphabricator%2Farticle%2Finstallation_guide%2F" class="phui-list-item-href"><span class="aural-only">Log In</span><span class="visual-only phui-icon-view phui-font-fa fa-sign-in phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name visual-only">Log In</span></a></li></ul><ul class="phui-list-view phabricator-dark-menu phabricator-search-menu"><li class="phui-list-item-view phui-list-item-type-link phabricator-main-menu-search"><div class=""><form action="/search/" method="POST"><input type="hidden" name="__csrf__" value="B@7ubtdcso39228040370a2a75" /><input type="hidden" name="__form__" value="1" /><div class="phabricator-main-menu-search-container"><input type="text" name="query" id="UQ0_6" autocomplete="off" /><button id="UQ0_9" class="phui-icon-view phui-font-fa fa-search"><span class="aural-only">Search</span></button><button class="button dropdown has-icon phabricator-main-menu-search-dropdown" id="UQ0_10" data-sigil="global-search-dropdown" data-meta="0_3"><span class="visual-only phui-icon-view phui-font-fa fa-globe" data-sigil="global-search-dropdown-icon" aria-hidden="true"></span><div class="phui-button-text"></div><span class="caret"></span></button><input type="hidden" name="search:scope" value="all" data-sigil="global-search-dropdown-input" /><input type="hidden" id="UQ0_11" name="search:application" value="PhabricatorDivinerApplication" data-sigil="global-search-dropdown-app" /><input type="hidden" name="search:primary" value="true" /><div id="UQ0_8" class="phabricator-main-menu-search-target"></div></div></form></div></li></ul><div id="phabricator-quick-create-menu" class="phabricator-main-menu-dropdown phui-list-sidenav" style="display: none"><ul class="phui-list-view "><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon "><a href="/pholio/create/" class="phui-list-item-href"><span class="visual-only phui-icon-view phui-font-fa fa-picture-o phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Pholio Mock</span></a></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon " data-sigil="workflow"><a href="/conpherence/new/" class="phui-list-item-href"><span class="visual-only phui-icon-view phui-font-fa fa-comments phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Conpherence Room</span></a></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon "><a href="/calendar/event/create/" class="phui-list-item-href"><span class="visual-only phui-icon-view phui-font-fa fa-calendar phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Calendar Event</span></a></li></ul></div><div id="phabricator-help-menu" class="phabricator-main-menu-dropdown phui-list-sidenav" style="display: none"><ul class="phui-list-view "><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Diviner Documentation</span></div></li><li class="phui-list-item-view phui-list-item-type-link phui-list-item-has-icon "><a href="https://secure.phabricator.com/diviner/find/?name=Diviner+User+Guide&amp;type=article&amp;jump=1" class="phui-list-item-href" rel="noreferrer"><span class="visual-only phui-icon-view phui-font-fa fa-book phui-list-item-icon" aria-hidden="true"></span><span class="phui-list-item-name">Diviner User Guide</span></a></li></ul></div></div><div id="phabricator-standard-page-body" class="phabricator-standard-page-body"><div class="phabricator-nav phabricator-basic-nav" id="UQ0_1"><div class="phabricator-nav-content plb" id="UQ0_0"><div class="phui-crumbs-view phui-crumbs-border"><a href="/diviner/" class="phui-crumb-view phui-crumb-has-icon"><span class="visual-only phui-icon-view phui-font-fa fa-sun-o" aria-hidden="true"></span><span class="phui-crumb-name">Diviner</span></a><span class="visual-only phui-icon-view phui-font-fa fa-angle-right phui-crumb-divider phui-crumb-view" aria-hidden="true"></span><a href="/book/phabricator/" class="phui-crumb-view"><span class="phui-crumb-name">Phabricator User Docs</span></a><span class="visual-only phui-icon-view phui-font-fa fa-angle-right phui-crumb-divider phui-crumb-view" aria-hidden="true"></span><span class="phui-crumb-view phabricator-last-crumb"><span class="phui-crumb-name">Installation Guide</span></span></div><div class="phui-document-container diviner-view"><div class="phui-document-view phui-document-view-pro"><div class="phui-document-content"><div class="phui-document-inner"><div class="phui-document-toc-container" id="UQ0_2"><a class="button simple has-icon phui-document-toc" data-sigil="jx-toggle-class" data-meta="0_0"><span class="visual-only phui-icon-view phui-font-fa fa-align-left" aria-hidden="true"></span><div class="phui-button-text"></div></a><div class="phui-list-sidenav phui-document-toc-list"><ul class="phui-list-view "><li class="phui-list-item-view phui-list-item-type-label "><div class=""><span class="phui-list-item-name">Contents</span></div></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#overview" class="phui-list-item-href"><span class="phui-list-item-name">Overview</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#installation-requirement" class="phui-list-item-href"><span class="phui-list-item-name">Installation Requirements</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#level-requirements" class="phui-list-item-href"><span class="phui-list-item-name">Level Requirements</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#installing-required-comp" class="phui-list-item-href"><span class="phui-list-item-name">Installing Required Components</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#installing-apc-optional" class="phui-list-item-href"><span class="phui-list-item-name">Installing APC (Optional)</span></a></li><li class="phui-list-item-view phui-list-item-type-link "><a href="#next-steps" class="phui-list-item-href"><span class="phui-list-item-name">Next Steps</span></a></li></ul></div></div><div class="phui-header-shell phui-header-tall "><h1 class="phui-header-view"><div class="phui-header-row"><div class="phui-header-col2"><span class="phui-header-header">Installation Guide</span><div class="phui-header-subheader">Phabricator User Documentation (Introduction)</div></div><div class="phui-header-col3"></div></div></h1></div><div class="phabricator-remarkup diviner-remarkup-section"><p>This document contains basic install instructions to get Phabricator up and
+running.</p>
+
+<h2 class="remarkup-header"><a name="overview"></a>Overview</h2>
+
+<p>Phabricator is a LAMP (Linux, Apache, MySQL, PHP) application. To install
+Phabricator, you will need:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item">a normal computer to install it on (shared hosts and unusual environments are not supported) running some flavor of Linux or a similar OS;</li>
+<li class="remarkup-list-item">a domain name (like <tt class="remarkup-monospaced">phabricator.mycompany.com</tt>);</li>
+<li class="remarkup-list-item">basic sysadmin skills;</li>
+<li class="remarkup-list-item">Apache, nginx, or another webserver;</li>
+<li class="remarkup-list-item">PHP, MySQL, and Git.</li>
+</ul>
+
+<p>The remainder of this document details these requirements.</p>
+
+<h2 class="remarkup-header"><a name="installation-requirement"></a>Installation Requirements</h2>
+
+<p>You will need <strong>a computer</strong>. Options include:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item"><strong>A Normal Computer</strong>: This is strongly recommended. Many installs use a VM in EC2. Phabricator installs properly and works well on a normal computer.</li>
+<li class="remarkup-list-item"><strong>A Shared Host</strong>: This may work, but is not recommended. Many shared hosting environments have restrictions which prevent some of Phabricator&#039;s features from working. Consider using a normal computer instead. We do not support shared hosts.</li>
+<li class="remarkup-list-item"><strong>A SAN Appliance, Network Router, Gaming Console, Raspberry Pi, etc.</strong>: Although you may be able to install Phabricator on specialized hardware, it is unlikely to work well and will be difficult for us to support. Strongly consider using a normal computer instead. We do not support specialized hardware.</li>
+<li class="remarkup-list-item"><strong>A Toaster, Car, Firearm, Thermostat, etc.</strong>: Yes, many modern devices now have embedded computing capability. We live in interesting times. However, you should not install Phabricator on these devices. Instead, install it on a normal computer. We do not support installing on noncomputing devices.</li>
+</ul>
+
+<p>To install the Phabricator server software, you will need an <strong>operating
+system</strong> on your normal computer which is <strong>not Windows</strong>. Note that the
+command line interface <em>does</em> work on Windows, and you can <em>use</em>
+Phabricator from any operating system with a web browser. However, the server
+software does not run on Windows. It does run on most other operating systems,
+so choose one of these instead:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item"><strong>Linux</strong>: Most installs use Linux.</li>
+<li class="remarkup-list-item"><strong>Mac OS X</strong>: Mac OS X is an acceptable flavor of Linux.</li>
+<li class="remarkup-list-item"><strong>FreeBSD</strong>: While FreeBSD is certainly not a flavor of Linux, it is a fine operating system possessed of many desirable qualities, and Phabricator will install and run properly on FreeBSD.</li>
+<li class="remarkup-list-item"><strong>Solaris, etc.</strong>: Other systems which look like Linux and quack like Linux will generally work fine, although we may suffer a reduced ability to support and resolve issues on unusual operating systems.</li>
+</ul>
+
+<p>Beyond an operating system, you will need <strong>a webserver</strong>.</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item"><strong>Apache</strong>: Many installs use Apache + <tt class="remarkup-monospaced">mod_php</tt>.</li>
+<li class="remarkup-list-item"><strong>nginx</strong>: Many installs use nginx + <tt class="remarkup-monospaced">php-fpm</tt>.</li>
+<li class="remarkup-list-item"><strong>lighttpd</strong>: <tt class="remarkup-monospaced">lighttpd</tt> is less popular than Apache or nginx, but it works fine.</li>
+<li class="remarkup-list-item"><strong>Other</strong>: Other webservers which can run PHP are also likely to work fine, although these installation instructions will not cover how to set them up.</li>
+<li class="remarkup-list-item"><strong>PHP Builtin Server</strong>: You can use the builtin PHP webserver for development or testing, although it should not be used in production.</li>
+</ul>
+
+<p>You will also need:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item"><strong>MySQL</strong>: You need MySQL. We strongly recommend MySQL 5.5 or newer.</li>
+<li class="remarkup-list-item"><strong>PHP</strong>: You need PHP 5.2 or newer.</li>
+</ul>
+
+<p>You&#039;ll probably also need a <strong>domain name</strong>. In particular, you should read this
+note:</p>
+
+<div class="remarkup-note"><span class="remarkup-note-word">NOTE:</span> Phabricator must be installed on an entire domain. You can not install it
+to a path on an existing domain, like <tt class="remarkup-monospaced">example.com/phabricator/</tt>. Instead,
+install it to an entire domain or subdomain, like <tt class="remarkup-monospaced">phabricator.example.com</tt>.</div>
+
+
+
+<h2 class="remarkup-header"><a name="level-requirements"></a>Level Requirements</h2>
+
+<p>To install and administrate Phabricator, you&#039;ll need to be comfortable with
+common system administration skills. For example, you should be familiar with
+using the command line, installing software on your operating system of choice,
+working with the filesystem, managing processes, dealing with permissions,
+editing configuration files, and setting environment variables.</p>
+
+<p>If you aren&#039;t comfortable with these skills, you can still try to perform an
+install. The install documentation will attempt to guide you through what you
+need to know. However, if you aren&#039;t very familiar or comfortable with using
+this set of skills to troubleshoot and resolve problems, you may encounter
+issues which you have substantial difficulty working through.</p>
+
+<p>We assume users installing and administrating Phabricator are comfortable with
+common system administration skills and concepts. If you aren&#039;t, proceed at
+your own risk and expect that your skills may be tested.</p>
+
+<h2 class="remarkup-header"><a name="installing-required-comp"></a>Installing Required Components</h2>
+
+<p>If you are installing on Ubuntu or an RedHat derivative, there are install
+scripts available which should handle most of the things discussed in this
+document for you:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item"><strong>RedHat Derivatives</strong>: <a href="https://secure.phabricator.com/diffusion/P/browse/master/scripts/install/install_rhel-derivs.sh" class="remarkup-link" target="_blank" rel="noreferrer">install_rhel-derivs.sh</a></li>
+<li class="remarkup-list-item"><strong>Ubuntu</strong>: <a href="https://secure.phabricator.com/diffusion/P/browse/master/scripts/install/install_ubuntu.sh" class="remarkup-link" target="_blank" rel="noreferrer">install_ubuntu.sh</a></li>
+</ul>
+
+<p>If those work for you, you can skip directly to the
+<a class="atom-ref" href="/diviner/find/?name=Configuration_Guide&amp;type=article&amp;jump=1">Configuration Guide</a>. These scripts are also available in the
+<tt class="remarkup-monospaced">scripts/install</tt> directory in the project itself.</p>
+
+<p>Otherwise, here&#039;s a general description of what you need to install:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item">git (usually called &quot;git&quot; in package management systems)</li>
+<li class="remarkup-list-item">Apache (usually &quot;httpd&quot; or &quot;apache2&quot;) (or nginx)</li>
+<li class="remarkup-list-item">MySQL Server (usually &quot;mysqld&quot; or &quot;mysql-server&quot;)</li>
+<li class="remarkup-list-item">PHP (usually &quot;php&quot;)</li>
+<li class="remarkup-list-item">Required PHP extensions: mbstring, iconv, mysql (or mysqli), curl, pcntl (these might be something like &quot;php-mysql&quot; or &quot;php5-mysql&quot;)</li>
+<li class="remarkup-list-item">Optional PHP extensions: gd, apc (special instructions for APC are available below if you have difficulty installing it), xhprof (instructions below, you only need this if you are developing Phabricator)</li>
+</ul>
+
+<p>If you already have LAMP setup, you&#039;ve probably already got everything you need.
+It may also be helpful to refer to the install scripts above, even if they don&#039;t
+work for your system.</p>
+
+<p>Now that you have all that stuff installed, grab Phabricator and its
+dependencies:</p>
+
+<div class="remarkup-code-block" data-code-lang="console" data-sigil="remarkup-code-block"><pre class="remarkup-code"><span class="gp">$ cd somewhere/ </span><span class="k"># pick some install directory</span>
+somewhere/ <span class="gp">$ git clone https://github.com/phacility/libphutil.git</span>
+somewhere/ <span class="gp">$ git clone https://github.com/phacility/arcanist.git</span>
+somewhere/ <span class="gp">$ git clone https://github.com/phacility/phabricator.git</span></pre></div>
+
+<h2 class="remarkup-header"><a name="installing-apc-optional"></a>Installing APC (Optional)</h2>
+
+<p>Like everything else written in PHP, Phabricator will run much faster with APC
+installed. You likely need to install &quot;pcre-devel&quot; first:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><pre class="remarkup-code">sudo yum install pcre-devel</pre></div>
+
+<p>Then you have two options. Either install via PECL (try this first):</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><pre class="remarkup-code">sudo yum install php-pear
+sudo pecl install apc</pre></div>
+
+<p><strong>If that doesn&#039;t work</strong>, grab the package from PECL directly and follow the
+build instructions there:</p>
+
+<p><a href="http://pecl.php.net/package/APC" class="remarkup-link" target="_blank" rel="noreferrer">http://pecl.php.net/package/APC</a></p>
+
+<p>Installing APC is optional but <strong>strongly recommended</strong>, especially on
+production hosts.</p>
+
+<p>Once APC is installed, test that it is available by running:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><pre class="remarkup-code">php -i | grep apc</pre></div>
+
+<p>If it doesn&#039;t show up, add:</p>
+
+<div class="remarkup-code-block" data-code-lang="text" data-sigil="remarkup-code-block"><pre class="remarkup-code">extension=apc.so</pre></div>
+
+<p>..to &quot;/etc/php.d/apc.ini&quot; or the &quot;php.ini&quot; file indicated by &quot;php -i&quot;.</p>
+
+<h2 class="remarkup-header"><a name="next-steps"></a>Next Steps</h2>
+
+<p>Continue by:</p>
+
+<ul class="remarkup-list">
+<li class="remarkup-list-item">configuring Phabricator with the <a class="atom-ref" href="/diviner/find/?name=Configuration_Guide&amp;type=article&amp;jump=1">Configuration Guide</a>; or</li>
+<li class="remarkup-list-item">learning how to keep Phabricator up to date with <a class="atom-ref" href="/diviner/find/?name=Upgrading_Phabricator&amp;type=article&amp;jump=1">Upgrading Phabricator</a>.</li>
+</ul></div></div></div></div></div><div class="phui-property-list-view "><div class="phui-property-list-section"><div class="phui-property-list-container grouped"><div class="phui-property-list-properties-wrap "><dl class="phui-property-list-properties"><dt class="phui-property-list-key">Defined </dt><dd class="phui-property-list-value"><a href="https://secure.phabricator.com/diffusion/P/browse/master/src/docs/user/installation_guide.diviner$1" target="_blank" rel="noreferrer">src/docs/user/installation_guide.diviner:1</a> </dd></dl></div></div></div></div></div></div><div class="phabricator-standard-page-footer grouped"><a href="http://phabricator.org/" rel="noreferrer">Phabricator</a> · <a href="http://phacility.com/" rel="noreferrer">Built by Phacility</a></div></div></div></div><script type="text/javascript" src="https://p.phcdn.net/res/phabricator/573e6664/core.pkg.js"></script><script type="text/javascript">JX.Stratcom.mergeData(0, [{"map":{"UQ0_2":"phui-document-toc-open"}},{"map":{"UQ0_3":"phabricator-application-menu-expanded","UQ0_4":"menu-icon-selected"}},{"map":{"UQ0_3":"phabricator-search-menu-expanded","UQ0_5":"menu-icon-selected"}},{"items":[{"name":"Search"},{"icon":"fa-globe","name":"Search All Documents","value":"all"},{"icon":"fa-sun-o","name":"Search Current Application","value":"application"},{"name":"Saved Queries"},{"icon":"fa-certificate","name":"Open Documents","value":"open"},{"icon":"fa-certificate","name":"Open Tasks","value":"open-tasks"},{"name":"More Options"},{"icon":"fa-search-plus","name":"Advanced Search","href":"\/search\/query\/advanced\/"},{"icon":"fa-book","name":"User Guide: Search","href":"https:\/\/secure.phabricator.com\/diviner\/find\/?name=Search+User+Guide&type=article&jump=1"}],"icon":"fa-globe","value":"all"}]);
+JX.onload(function(){JX.initBehaviors({"refresh-csrf":[{"tokenName":"__csrf__","header":"X-Phabricator-Csrf","viaHeader":"X-Phabricator-Via","current":"B@7ubtdcso39228040370a2a75"}],"history-install":[]})});
+JX.onload(function(){JX.initBehaviors({"phabricator-reveal-content":[],"workflow":[],"lightbox-attachments":[{"defaultImageUri":"https:\/\/p.phcdn.net\/res\/phabricator\/45fe1c60\/rsrc\/image\/icon\/fatcow\/document_black.png","downloadForm":"\u003cform action=\"#\" method=\"POST\" class=\"lightbox-download-form\" data-sigil=\"download\"\u003e\u003cinput type=\"hidden\" name=\"__csrf__\" value=\"B@7ubtdcso39228040370a2a75\" \/\u003e\u003cinput type=\"hidden\" name=\"__form__\" value=\"1\" \/\u003e\u003cbutton\u003eDownload\u003c\/button\u003e\u003c\/form\u003e"}],"aphront-form-disable-on-submit":[],"toggle-class":[],"phabricator-gesture":[],"device":[],"high-security-warning":[{"show":false,"uri":"\/auth\/session\/downgrade\/","message":"Your session is in high security mode. When you finish using it, click here to leave."}],"phabricator-keyboard-shortcuts":[{"helpURI":"\/help\/keyboardshortcut\/","searchID":"UQ0_6"}],"aphlict-dropdown":[{"bubbleID":"UQ0_7","dropdownID":"phabricator-help-menu","local":true,"desktop":true,"right":true}],"phabricator-search-typeahead":[{"id":"UQ0_8","input":"UQ0_6","button":"UQ0_9","selectorID":"UQ0_10","applicationID":"UQ0_11","defaultApplicationIcon":"fa-dot-circle-o","appScope":"application","src":"\/typeahead\/class\/PhabricatorSearchDatasource\/","limit":10,"placeholder":"Search","scopeUpdateURI":"\/settings\/adjust\/?key=search-scope"}],"quicksand-blacklist":[{"patterns":["\/phame\/live\/.*","\/conpherence\/.*","\/Z\\d+"]}]})});</script></body></html>
